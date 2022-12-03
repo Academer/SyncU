@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js -e js ejs css"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
     "link-preview-js": "^3.0.4",
     "mongoose": "^6.7.5",
     "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
