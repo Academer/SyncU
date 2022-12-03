@@ -16,4 +16,4 @@ app.use("*", (_, res) => {
   res.render("404.ejs");
 });
 
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
