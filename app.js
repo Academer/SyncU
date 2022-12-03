@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use(mainRoutes);
 app.use("/tools", toolRoutes);
-app.use("*", (_, res) => {
+app.use("*", (req_, res) => {
   res.render("404.ejs");
 });
 
