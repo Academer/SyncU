@@ -64,11 +64,12 @@ a:hover {
 
   height: 100vh;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .content-1 {
   padding: 100px;
+  padding-top: 150px;
   height: 100%;
   width: 50vw;
   /* background-color: #2f2f2f; */
@@ -81,6 +82,7 @@ a:hover {
 
 .hero img {
   /* max-width: 50vw; */
+  margin-top: 10vh;
   width: 700px;
   height: 466.666px;
 }
@@ -88,10 +90,34 @@ a:hover {
 .hero-h1 {
   font-family: "Ubuntu";
   font-size: 50px;
-  color: #08428f;
+  color: #333;
+  font-weight: 900;
+  /* color: #08428f; */
 }
 
 .hero-p {
   color: #474747;
   line-height: 1.6;
+}
+
+.nav-el a {
+  display: inline-block;
+  /* border-bottom: 2px solid #333; */
+
+  /* color: #000; */
+  text-decoration: none;
+}
+
+.nav-el a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s;
+}
+
+.nav-el a:hover::after {
+  width: 100%;
+  /* //transition: width .3s; */
 }
