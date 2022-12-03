@@ -4,14 +4,15 @@
   margin: 0;
   font-family: Helvetica;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 .logo {
-  /* width: 130px; */
+  /* width: 13.0rem; */
   color: #474747;
   /* color: #e67e22; */
   font-family: "Zen Dots";
-  font-size: 30px;
+  font-size: 3rem;
   cursor: pointer;
 }
 
@@ -28,9 +29,18 @@ nav {
 .nav-el {
   display: flex;
   align-items: center;
-  font-size: 20px;
-  gap: 25px;
+  font-size: 2rem;
+  gap: 2.5rem;
 }
+
+.nav-el a {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
 a {
   text-decoration: none;
   color: #2f2f2f;
@@ -42,20 +52,20 @@ a:hover {
   font-weight: 500;
 }
 .btn {
-  font-size: 20px;
-  padding: 8px 20px;
+  font-size: 2rem;
+  padding: 1rem 2rem;
   background-color: #2f2f2f;
   color: #fff;
-  font-weight: 700;
+  /* font-weight: 700; */
   border: none;
   cursor: pointer;
-  border-radius: 7px;
+  border-radius: 0.7rem;
 }
 
 .btn:hover {
   background-color: #fff;
   color: #2f2f2f;
-  outline: 2px solid #2f2f2f;
+  outline: 0.2rem solid #2f2f2f;
   transition: 0.4s all;
 }
 
@@ -68,8 +78,8 @@ a:hover {
 }
 
 .content-1 {
-  padding: 100px;
-  padding-top: 150px;
+  padding: 10rem;
+  padding-top: 15rem;
   height: 100%;
   width: 50vw;
   /* background-color: #2f2f2f; */
@@ -77,19 +87,19 @@ a:hover {
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  gap: 50px;
+  gap: 5rem;
 }
 
 .hero img {
   /* max-width: 50vw; */
   margin-top: 10vh;
-  width: 700px;
-  height: 466.666px;
+  width: 70rem;
+  height: 46.6666rem;
 }
 
 .hero-h1 {
   font-family: "Ubuntu";
-  font-size: 50px;
+  font-size: 5rem;
   color: #333;
   font-weight: 900;
   /* color: #08428f; */
@@ -102,7 +112,7 @@ a:hover {
 
 .nav-el a {
   display: inline-block;
-  /* border-bottom: 2px solid #333; */
+  /* border-bottom: .2rem solid #333; */
 
   /* color: #000; */
   text-decoration: none;
@@ -112,7 +122,7 @@ a:hover {
   content: "";
   display: block;
   width: 0;
-  height: 2px;
+  height: 0.2rem;
   background: #333;
   transition: width 0.3s;
 }
