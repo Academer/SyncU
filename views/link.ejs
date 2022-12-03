@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- <img src="blurry.svg" alt="" /> -->
+
+    <a href="https://syncu.me" class="head">SyncU</a>
+    <% if(error) { %>
+    <div class="error">
+      <h2>Error !</h2>
+      <p><%= error %></p>
+    </div>
+    <% } %>
+    <div class="div">
+      <h1>Enter your Link</h1>
+      <form class="fm" action="/tools/link-preview" method="POST">
+        <input type="text" placeholder="Enter Link" name="title" id="title" />
+        <button class="btn" type="submit">Get Metadata</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>Made By:</p>
+      <a target="_blank" href="https://SyncU.me"> SyncU</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -4,12 +4,16 @@ const bodyParser = require("body-parser");
 const path = require("path");
 
 const mainRoutes = require("./routes/mainRoutes.js");
-
+const toolRoutes = require("./routes/toolRoutes");
 app.set("view engine", "ejs");
 app.set("views", "views");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(mainRoutes);
+app.use("/tools", toolRoutes);
+app.use("*", (_, res) => {
+  res.render("404.ejs");
+});
 
 app.listen(3001);
