@@ -123,20 +123,17 @@ li a {
   /* background-color: #000000; */
 }
 
-/* Hide Dropdowns by Default */
 .nav-el ul ul {
   display: none;
   position: absolute;
-  top: 60px; /* the height of the main nav */
+  top: 60px;
 }
 
-/* Display Dropdowns on Hover */
 .nav-el ul li:hover > ul {
   margin-left: -11.1rem;
   display: inherit;
 }
 
-/* Fisrt Tier Dropdown */
 .nav-el ul ul li {
   width: 170px;
   float: none;

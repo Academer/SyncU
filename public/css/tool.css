@@ -48,7 +48,8 @@
 .trending-tools {
   width: 80vw;
   height: 25vh;
-  background-color: rgb(251, 206, 177, 0.3);
+  background-color: rgb(0, 0, 0, 0.1);
+  /* background-color: rgb(251, 206, 177, 0.3); */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   margin: 8vh auto;
   border-radius: 10px;
@@ -58,7 +59,8 @@
 
 .tools {
   text-align: center;
-  color: #e67e22;
+  color: #0b428f;
+  /* color: #e67e22; */
 }
 
 .tool-box {
