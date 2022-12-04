@@ -318,7 +318,7 @@ li a {
 
 /* Fisrt Tier Dropdown */
 .nav-el ul ul li {
-  /* width: 170px; */
+  width: 170px;
   float: none;
   display: list-item;
   position: relative;
@@ -338,4 +338,9 @@ li a {
 }
 .prod ion-icon {
   font-size: 2rem;
+}
+
+.drop-el {
+  font-size: 1.5rem !important;
+  /* color: aquamarine; */
 }
