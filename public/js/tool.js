@@ -5,8 +5,3 @@ tool.forEach((i) => {
     window.location.href = "/tools/link-preview";
   });
 });
-document.querySelectorAll(".logo").forEach((i) => {
-  i.addEventListener("click", () => {
-    window.location.href = "/";
-  });
-});
