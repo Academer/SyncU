@@ -111,7 +111,7 @@
           <div class="content-1">
             <h1 class="hero-h1">Website Under Development</h1>
             <h2 class="hero-h2">
-              Enter email id to get Notified when our website is Ready
+              Enter Email ID to be Notified when our Website is Live
             </h2>
             <form
               id="form-1"
@@ -122,7 +122,7 @@
               <input
                 name="Email"
                 type="email"
-                placeholder="Enter email"
+                placeholder="Enter your email"
                 required
               />
               <button class="btn-1" type="submit">Notify Me</button>
@@ -134,42 +134,7 @@
         <!-- <img class="wave" src="img/wave.svg" alt=""> -->
         <!-- <img src="img/comp.jpg" alt=""> -->
       </div>
-      <script>
-        // document.querySelector(".form-1").addEventListener("submit",(el)=>{
-        //     el.preventDefault()
-        // })
-        document
-          .querySelector(".dropdown")
-          .addEventListener("mouseover", callback);
-
-        function callback() {
-          // Get the dropdown menu height when scroll. The default height set by css to 0.
-
-          let dropdownHeight = this.children[1].scrollHeight;
-          // Add the height to dropdown menu (change it from 0 to scroll height value )
-          this.children[1].style = `height: ${dropdownHeight}px`;
-        }
-        window.addEventListener("load", function () {
-          const form = document.getElementById("form-1");
-          form.addEventListener("submit", function (e) {
-            e.preventDefault();
-            const data = new FormData(form);
-            const action = e.target.action;
-            fetch(action, {
-              method: "POST",
-              body: data,
-            }).then(() => {
-              //   alert("Success!");
-              document.querySelector(".alert").classList.remove("op");
-              document
-                .querySelector(".close")
-                .addEventListener("click", (el) => {
-                  document.querySelector(".alert").classList.add("op");
-                });
-            });
-          });
-        });
-      </script>
+      <script src="js/script.js"></script>
     </body>
   </head>
 </html>

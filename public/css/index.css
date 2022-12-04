@@ -62,7 +62,7 @@ a:hover {
   /* font-weight: 700; */
   border: none;
   cursor: pointer;
-  border-radius: 0.7rem;
+  border-radius: 0.5rem;
 }
 
 .btn:hover {
@@ -81,7 +81,7 @@ a:hover {
   font-size: 1.6rem;
   padding: 0.8rem 1.6rem;
   cursor: pointer;
-  border-radius: 0.7rem;
+  border-radius: 0.3rem;
 }
 
 .btn-1:hover {
@@ -111,9 +111,10 @@ a:hover {
 
 .design {
   padding: 10rem;
+  padding-right: 0;
   padding-top: 20rem;
   height: 100%;
-  width: 70vw;
+  width: 85vw;
   padding-left: 20vw;
   margin-left: -10vw;
   background-color: #2f2f2f;
@@ -139,11 +140,11 @@ img {
   /* color: #08428f; */
 }
 .hero-h2 {
-  font-family: "Ubuntu";
+  font-family: Helvetica;
   /* transform: skewX(-10deg); */
   font-size: 2.2rem;
   color: #fff;
-  font-weight: 400;
+  font-weight: 100;
   /* color: #08428f; */
 }
 
