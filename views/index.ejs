@@ -1,140 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+  <%- include('./partials/head.ejs',{css:'index'}) %>
+  <body>
+    <%- include('./partials/nav.ejs') %>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-
-    <title>SyncU - It will Sync You</title>
-    <link rel="stylesheet" href="css/index.css" />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/03d58ba9c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <body>
-      <nav>
-        <h1 class="logo">SyncU</h1>
-        <div class="nav-el">
-          <ul class="menu">
-            <li>
-              <a href="#">
-                <div class="prod">
-                  <span> Products </span>
-                  <ion-icon name="chevron-down-outline"></ion-icon>
-                </div>
-              </a>
-              <!-- First Tier Drop Down -->
-              <ul>
-                <li class="drop-el">
-                  <a href="https://meet.syncu.me" target="_blank"
-                    ><span class="drop-el"> Meeting Scheduler</span></a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <a href="/tools">Tools</a>
-          <a href="">Services</a>
-          <a href="">Resources</a>
-          <button class="btn">Get Started</button>
-        </div>
-      </nav>
-      <div class="success alert op">
-        <div class="content-err">
-          <div class="icon">
-            <svg
-              width="50"
-              height="50"
-              id="Layer_1"
-              style="enable-background: new 0 0 128 128"
-              version="1.1"
-              viewBox="0 0 128 128"
-            >
-              <g><circle fill="#fff" cx="64" cy="64" r="64" /></g>
-              <g>
-                <path
-                  fill="#3EBD61"
-                  d="M54.3,97.2L24.8,67.7c-0.4-0.4-0.4-1,0-1.4l8.5-8.5c0.4-0.4,1-0.4,1.4,0L55,78.1l38.2-38.2   c0.4-0.4,1-0.4,1.4,0l8.5,8.5c0.4,0.4,0.4,1,0,1.4L55.7,97.2C55.3,97.6,54.7,97.6,54.3,97.2z"
-                />
-              </g>
-            </svg>
-          </div>
-          <p>You will be Notified once the Website is Live</p>
-        </div>
-        <button class="close">
+    <div class="success alert op">
+      <div class="content-err">
+        <div class="icon">
           <svg
-            height="18px"
+            width="50"
+            height="50"
             id="Layer_1"
-            style="enable-background: new 0 0 512 512"
+            style="enable-background: new 0 0 128 128"
             version="1.1"
-            viewBox="0 0 512 512"
-            width="18px"
-            xml:space="preserve"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 128 128"
           >
-            <path
-              fill="#69727D"
-              d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"
-            />
-          </svg>
-        </button>
-      </div>
-      <div class="hero">
-        <div class="design">
-          <div class="content-1">
-            <h1 class="hero-h1">Website Under Development</h1>
-            <h2 class="hero-h2">
-              Enter Email ID to be Notified when our Website is Live
-            </h2>
-            <form
-              id="form-1"
-              action="https://script.google.com/macros/s/AKfycbz6E4BeppWF02p2Onaa0tDKDbXPrWEMqtQ6eROdC-0AeT9_356jULvJV0R6cqSGMk_gZg/exec"
-              method="post"
-            >
-              <!-- <input name="Name" type="text" placeholder="Enter Name" required> -->
-              <input
-                name="Email"
-                type="email"
-                placeholder="Enter your email"
-                required
+            <g><circle fill="#fff" cx="64" cy="64" r="64" /></g>
+            <g>
+              <path
+                fill="#3EBD61"
+                d="M54.3,97.2L24.8,67.7c-0.4-0.4-0.4-1,0-1.4l8.5-8.5c0.4-0.4,1-0.4,1.4,0L55,78.1l38.2-38.2   c0.4-0.4,1-0.4,1.4,0l8.5,8.5c0.4,0.4,0.4,1,0,1.4L55.7,97.2C55.3,97.6,54.7,97.6,54.3,97.2z"
               />
-              <button class="btn-1" type="submit">Notify Me</button>
-            </form>
-          </div>
+            </g>
+          </svg>
         </div>
-        <img src="img/webdev.jpg" alt="" />
-        <div class="vert"></div>
-        <!-- <img class="wave" src="img/wave.svg" alt=""> -->
-        <!-- <img src="img/comp.jpg" alt=""> -->
+        <p>You will be Notified once the Website is Live</p>
       </div>
-      <script src="js/script.js"></script>
-    </body>
-  </head>
+      <button class="close">
+        <svg
+          height="18px"
+          id="Layer_1"
+          style="enable-background: new 0 0 512 512"
+          version="1.1"
+          viewBox="0 0 512 512"
+          width="18px"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <path
+            fill="#69727D"
+            d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="hero">
+      <div class="design">
+        <div class="content-1">
+          <h1 class="hero-h1">Website Under Development</h1>
+          <h2 class="hero-h2">
+            Enter Email ID to be Notified when our Website is Live
+          </h2>
+          <form
+            id="form-1"
+            action="https://script.google.com/macros/s/AKfycbz6E4BeppWF02p2Onaa0tDKDbXPrWEMqtQ6eROdC-0AeT9_356jULvJV0R6cqSGMk_gZg/exec"
+            method="post"
+          >
+            <!-- <input name="Name" type="text" placeholder="Enter Name" required> -->
+            <input
+              name="Email"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button class="btn-1" type="submit">Notify Me</button>
+          </form>
+        </div>
+      </div>
+      <img src="img/webdev.jpg" alt="" />
+      <div class="vert"></div>
+      <!-- <img class="wave" src="img/wave.svg" alt=""> -->
+      <!-- <img src="img/comp.jpg" alt=""> -->
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>

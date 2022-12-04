@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Raleway+Dots&family=Rubik:wght@400;500;600;700;800&family=Zen+Dots&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.logo {
+  /* width: 13.0rem; */
+  color: #474747;
+  z-index: 7;
+  /* color: #fff; */
+  /* color: #e67e22; */
+  font-family: "Zen Dots";
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+nav {
+  position: sticky;
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  width: 100%;
+  padding: 0 5vw;
+  justify-content: space-between;
+  z-index: 9;
+}
+
+.nav-el {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 2.5rem;
+}
+
+.nav-el a {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #2f2f2f;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: none;
+  /* color: #7f7f7f; */
+  color: #0b428f;
+  font-weight: 500;
+}
+.btn {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: #2f2f2f;
+  color: #fff;
+  /* font-weight: 700; */
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #2f2f2f;
+  outline: 0.2rem solid #2f2f2f;
+  transition: 0.4s all;
+}
+
+.nav-el a {
+  display: inline-block;
+  /* border-bottom: .2rem solid #333; */
+
+  /* color: #000; */
+  text-decoration: none;
+}
+
+.nav-el a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0.2rem;
+  background: #333;
+  transition: width 0.3s;
+}
+
+.nav-el a:hover::after {
+  width: 100%;
+  /* //transition: width .3s; */
+}
+
+.nav-el ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+.nav-el ul li {
+  display: inline-block;
+  /* background-color: #e64a19; */
+}
+
+li a {
+  display: block;
+  /* padding: 0 10px; */
+  /* color: #fff; */
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+.nav-el a:hover {
+  /* background-color: #000000; */
+}
+
+/* Hide Dropdowns by Default */
+.nav-el ul ul {
+  display: none;
+  position: absolute;
+  top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+.nav-el ul li:hover > ul {
+  margin-left: -11.1rem;
+  display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+.nav-el ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.prod {
+  display: flex;
+  align-items: center;
+  /* height: 5rem; */
+  /* width: 10rem; */
+  gap: 1rem;
+  /* justify-content: space-between; */
+}
+
+.prod span {
+  font-size: 2rem;
+}
+.prod ion-icon {
+  font-size: 2rem;
+}
+
+.drop-el {
+  font-size: 1.5rem !important;
+  /* color: aquamarine; */
+}

@@ -15,7 +15,9 @@ const home = (req, res) => {
   //   isLoggedIn = false;
   //   console.log(false);
   // }
-  res.render("tool.ejs");
+  res.render("tool.ejs", {
+    css: "index",
+  });
   // res.render("tool.ejs", { isLoggedIn: isLoggedIn });
 };
 
