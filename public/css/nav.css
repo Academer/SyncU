@@ -79,7 +79,7 @@ a:hover {
 .nav-el a {
   display: inline-block;
   /* border-bottom: .2rem solid #333; */
-
+  color: #2f2f2f;
   /* color: #000; */
   text-decoration: none;
 }
