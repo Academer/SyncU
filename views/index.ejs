@@ -38,68 +38,136 @@
       crossorigin="anonymous"
     ></script>
     <body>
-    <nav>
-      <h1 class="logo">SyncU</h1>
-      <div class="nav-el">
-        <a href="">Products</a>
-        <a href="/tools">Tools</a>
-        <a href="">Services</a>
-        <a href="">Resources</a>
-        <button class="btn">Get Started</button>
-      </div>
-    </nav>
-      <div class="success alert op">
-    <div class="content-err">
-      <div class="icon">
-        <svg width="50" height="50" id="Layer_1" style="enable-background:new 0 0 128 128;" version="1.1" viewBox="0 0 128 128" ><g><circle fill="#fff" cx="64" cy="64" r="64"/></g><g><path fill="#3EBD61" d="M54.3,97.2L24.8,67.7c-0.4-0.4-0.4-1,0-1.4l8.5-8.5c0.4-0.4,1-0.4,1.4,0L55,78.1l38.2-38.2   c0.4-0.4,1-0.4,1.4,0l8.5,8.5c0.4,0.4,0.4,1,0,1.4L55.7,97.2C55.3,97.6,54.7,97.6,54.3,97.2z"/></g></svg>
-    </div>
-      <p>You will be Notified once the Website is Live</p>
-    </div>
-    <button class="close">
-     <svg height="18px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="18px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#69727D" d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
-    </button>
-  </div>
-    <div class="hero">
-        <div class="design">
-
-            <div class="content-1">
-                <h1 class="hero-h1">Website Under Development </h1>
-                <h2 class="hero-h2">Enter email id to get Notified when our website is Ready</h2>
-                <form id="form-1" action="https://script.google.com/macros/s/AKfycbz6E4BeppWF02p2Onaa0tDKDbXPrWEMqtQ6eROdC-0AeT9_356jULvJV0R6cqSGMk_gZg/exec" method="post">
-                    <!-- <input name="Name" type="text" placeholder="Enter Name" required> -->
-                    <input name="Email" type="email" placeholder="Enter email" required>
-                    <button class="btn-1" type="submit">Notify Me</button></form>
+      <nav>
+        <h1 class="logo">SyncU</h1>
+        <div class="nav-el">
+          <ul class="menu">
+            <li>
+              <a href="#">
+                <div class="prod">
+                  <span> Products </span>
+                  <ion-icon name="chevron-down-outline"></ion-icon>
                 </div>
-            </div>
-                <img src="img/webdev.jpg" alt="">
-                <div class="vert"></div>
+              </a>
+              <!-- First Tier Drop Down -->
+              <ul>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">Plugins</a></li>
+                <li><a href="#">Tutorials</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a href="/tools">Tools</a>
+          <a href="">Services</a>
+          <a href="">Resources</a>
+          <button class="btn">Get Started</button>
+        </div>
+      </nav>
+      <div class="success alert op">
+        <div class="content-err">
+          <div class="icon">
+            <svg
+              width="50"
+              height="50"
+              id="Layer_1"
+              style="enable-background: new 0 0 128 128"
+              version="1.1"
+              viewBox="0 0 128 128"
+            >
+              <g><circle fill="#fff" cx="64" cy="64" r="64" /></g>
+              <g>
+                <path
+                  fill="#3EBD61"
+                  d="M54.3,97.2L24.8,67.7c-0.4-0.4-0.4-1,0-1.4l8.5-8.5c0.4-0.4,1-0.4,1.4,0L55,78.1l38.2-38.2   c0.4-0.4,1-0.4,1.4,0l8.5,8.5c0.4,0.4,0.4,1,0,1.4L55.7,97.2C55.3,97.6,54.7,97.6,54.3,97.2z"
+                />
+              </g>
+            </svg>
+          </div>
+          <p>You will be Notified once the Website is Live</p>
+        </div>
+        <button class="close">
+          <svg
+            height="18px"
+            id="Layer_1"
+            style="enable-background: new 0 0 512 512"
+            version="1.1"
+            viewBox="0 0 512 512"
+            width="18px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              fill="#69727D"
+              d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="hero">
+        <div class="design">
+          <div class="content-1">
+            <h1 class="hero-h1">Website Under Development</h1>
+            <h2 class="hero-h2">
+              Enter email id to get Notified when our website is Ready
+            </h2>
+            <form
+              id="form-1"
+              action="https://script.google.com/macros/s/AKfycbz6E4BeppWF02p2Onaa0tDKDbXPrWEMqtQ6eROdC-0AeT9_356jULvJV0R6cqSGMk_gZg/exec"
+              method="post"
+            >
+              <!-- <input name="Name" type="text" placeholder="Enter Name" required> -->
+              <input
+                name="Email"
+                type="email"
+                placeholder="Enter email"
+                required
+              />
+              <button class="btn-1" type="submit">Notify Me</button>
+            </form>
+          </div>
+        </div>
+        <img src="img/webdev.jpg" alt="" />
+        <div class="vert"></div>
         <!-- <img class="wave" src="img/wave.svg" alt=""> -->
         <!-- <img src="img/comp.jpg" alt=""> -->
-    </div>
-    <script>
+      </div>
+      <script>
         // document.querySelector(".form-1").addEventListener("submit",(el)=>{
         //     el.preventDefault()
         // })
-        window.addEventListener("load", function() {
-  const form = document.getElementById('form-1');
-  form.addEventListener("submit", function(e) {
-    e.preventDefault();
-    const data = new FormData(form);
-    const action = e.target.action;
-    fetch(action, {
-      method: 'POST',
-      body: data,
-    })
-    .then(() => {
-    //   alert("Success!");
-    document.querySelector(".alert").classList.remove("op")
-    document.querySelector(".close").addEventListener("click",(el)=>{
-        document.querySelector(".alert").classList.add("op")
-    })
-    })
-  });
-});
+        document
+          .querySelector(".dropdown")
+          .addEventListener("mouseover", callback);
 
-    </script>
-  </body>
+        function callback() {
+          // Get the dropdown menu height when scroll. The default height set by css to 0.
+
+          let dropdownHeight = this.children[1].scrollHeight;
+          // Add the height to dropdown menu (change it from 0 to scroll height value )
+          this.children[1].style = `height: ${dropdownHeight}px`;
+        }
+        window.addEventListener("load", function () {
+          const form = document.getElementById("form-1");
+          form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const data = new FormData(form);
+            const action = e.target.action;
+            fetch(action, {
+              method: "POST",
+              body: data,
+            }).then(() => {
+              //   alert("Success!");
+              document.querySelector(".alert").classList.remove("op");
+              document
+                .querySelector(".close")
+                .addEventListener("click", (el) => {
+                  document.querySelector(".alert").classList.add("op");
+                });
+            });
+          });
+        });
+      </script>
+    </body>
+  </head>
 </html>

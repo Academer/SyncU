@@ -213,7 +213,7 @@ input {
 
 /* alert */
 .alert {
-  z-index: 9999999999;
+  /* z-index: 9999999999; */
   left: 35vw;
   top: 7vh;
   position: absolute;
@@ -276,4 +276,66 @@ input {
 
 .op {
   opacity: 0;
+}
+
+.nav-el ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+.nav-el ul li {
+  display: inline-block;
+  /* background-color: #e64a19; */
+}
+
+li a {
+  display: block;
+  /* padding: 0 10px; */
+  /* color: #fff; */
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+.nav-el a:hover {
+  /* background-color: #000000; */
+}
+
+/* Hide Dropdowns by Default */
+.nav-el ul ul {
+  display: none;
+  position: absolute;
+  top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+.nav-el ul li:hover > ul {
+  margin-left: -11.1rem;
+  display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+.nav-el ul ul li {
+  /* width: 170px; */
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.prod {
+  display: flex;
+  align-items: center;
+  /* height: 5rem; */
+  /* width: 10rem; */
+  gap: 1rem;
+  /* justify-content: space-between; */
+}
+
+.prod span {
+  font-size: 2rem;
+}
+.prod ion-icon {
+  font-size: 2rem;
 }
