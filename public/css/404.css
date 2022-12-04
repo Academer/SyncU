@@ -1,41 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway+Dots&family=Rubik:wght@400;500;600;700;800&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Raleway+Dots&family=Rubik:wght@400;500;600;700;800&family=Zen+Dots&display=swap");
+
+* {
+  font-family: Helvetica;
+  /* font-size: 1.6rem; */
+  /* font-size: 1rem; */
+}
+
+.logo {
+  /* width: 13.0rem; */
+  /* color: #474747; */
+  color: #e67e22;
+  font-family: "Zen Dots";
+  font-size: 3rem;
+  cursor: pointer;
+  text-shadow: none;
+}
 .btn {
-  padding: 12px 24px;
-  font-size: 20px;
+  padding: 1.2rem 2.4rem;
+  font-size: 2rem;
   display: inline-block;
   cursor: pointer;
   background-color: #e67e22;
   color: #fff;
-  border-radius: 8px;
-  border: none;
+  border-radius: 0.8rem;
+  border: none !important;
+  outline: none !important;
   text-decoration: none;
 }
 .cnt {
   display: flex;
   height: 100vh;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 
 .btn:hover {
   background-color: #cf711f;
+  color: #fff;
 }
 
 .error {
+  margin-top: -10vh;
   width: 60vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 5rem;
 }
 
 .msgs {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 2.5rem;
 }
 .err-msg {
+  font-size: 1.6rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -45,19 +67,21 @@
 }
 
 .err-msg-1 {
-  font-weight: 600;
+  color: #777;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 .err404 {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .four,
 .zero {
   font-family: "Poppins";
-  font-size: 200px;
-  margin-bottom: -100px;
+  font-size: 20rem;
+  margin-bottom: -10rem;
   color: #444;
 }
 
