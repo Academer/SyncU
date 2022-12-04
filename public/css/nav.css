@@ -105,14 +105,14 @@ a:hover {
   position: relative;
 }
 
-.nav-el ul li {
-  display: inline-block;
-  /* background-color: #e64a19; */
+.drop-el {
+  /* display: inline-block; */
+  background-color: #fff;
+  padding: 0 10px;
 }
 
 li a {
   display: block;
-  /* padding: 0 10px; */
   /* color: #fff; */
   font-size: 20px;
   line-height: 60px;
@@ -120,7 +120,7 @@ li a {
 }
 
 .nav-el a:hover {
-  /* background-color: #000000; */
+  /* background-color: #fff; */
 }
 
 .nav-el ul ul {
@@ -130,7 +130,7 @@ li a {
 }
 
 .nav-el ul li:hover > ul {
-  margin-left: -11.1rem;
+  /* margin-left: -11.1rem; */
   display: inherit;
 }
 
