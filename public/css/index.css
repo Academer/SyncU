@@ -9,7 +9,9 @@
 
 .logo {
   /* width: 13.0rem; */
-  color: #474747;
+  /* color: #474747; */
+  z-index: 7;
+  color: #fff;
   /* color: #e67e22; */
   font-family: "Zen Dots";
   font-size: 3rem;
@@ -24,6 +26,7 @@ nav {
   width: 100%;
   padding: 0 5vw;
   justify-content: space-between;
+  z-index: 9;
 }
 
 .nav-el {
@@ -70,7 +73,7 @@ a:hover {
 }
 
 .hero {
-  padding-top: 10vh;
+  /* padding-top: 10vh; */
 
   height: 100vh;
   display: flex;
@@ -79,34 +82,42 @@ a:hover {
 
 .content-1 {
   padding: 10rem;
-  padding-top: 15rem;
+  padding-top: 25rem;
   height: 100%;
-  width: 50vw;
-  /* background-color: #2f2f2f; */
+  width: 70vw;
+  padding-left: 15vw;
+  margin-left: -10vw;
+  background-color: #2f2f2f;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transform: skewX(10deg);
   /* justify-content: center; */
   gap: 5rem;
+}
+img {
+  /* z-index: 2; */
 }
 
 .hero img {
   /* max-width: 50vw; */
-  margin-top: 10vh;
+  margin-top: 20vh;
   width: 70rem;
   height: 46.6666rem;
 }
 
 .hero-h1 {
   font-family: "Ubuntu";
+  transform: skewX(-10deg);
   font-size: 5rem;
-  color: #333;
+  color: #fff;
   font-weight: 900;
   /* color: #08428f; */
 }
 
 .hero-p {
-  color: #474747;
+  transform: skewX(-10deg);
+  color: rgb(171, 171, 171);
   line-height: 1.6;
 }
 
@@ -130,4 +141,21 @@ a:hover {
 .nav-el a:hover::after {
   width: 100%;
   /* //transition: width .3s; */
+}
+
+.wave {
+  position: absolute;
+
+  top: 0;
+  height: 220%;
+  width: 300%;
+  left: 35vw;
+  transform: scale(3.5);
+  transform: rotate(90deg);
+}
+
+.vert {
+  position: absolute;
+  /* transform: rotate(20deg); */
+  background-color: #2f2f2f;
 }
