@@ -5,7 +5,8 @@
       rgba(235, 151, 70, 0.1),
       rgba(230, 125, 34, 0.1)
     ),
-    url("/img/tool3.svg");
+    url("/img/bg.svg");
+  /* url("/img/tool3.svg"); */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
   height: 305px;
