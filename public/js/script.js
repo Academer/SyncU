@@ -11,6 +11,10 @@ window.addEventListener("load", function () {
       //   alert("Success!");
       document.querySelector(".alert").classList.remove("op");
       document.querySelector(".alert").classList.add("zi");
+      setTimeout(function () {
+        document.querySelector(".alert").classList.remove("zi");
+        document.querySelector(".alert").classList.add("op");
+      }, 2000);
       document.querySelector(".close").addEventListener("click", (el) => {
         document.querySelector(".alert").classList.remove("zi");
         document.querySelector(".alert").classList.add("op");
