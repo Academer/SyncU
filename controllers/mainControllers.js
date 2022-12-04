@@ -1,4 +1,4 @@
 const home = (req, res, next) => {
-  res.render("index");
+  res.render("comming-soon");
 };
 module.exports = { home };
