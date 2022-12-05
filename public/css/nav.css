@@ -172,10 +172,10 @@ li a {
   transition: 0.5s ease-in-out;
 }
 .navbar {
-  background-color: rgba(255, 255, 255, 0.282) !important;
-  padding: 0 5vw;
-  backdrop-filter: blur(10px);
-  /* padding: 1vw 5vw; */
+  /* background-color: rgba(255, 255, 255, 0.282) !important; */
+  /* padding: 0 5vw; */
+  /* backdrop-filter: blur(10px); */
+  padding: 1vw 5vw;
   transition: 0.4s ease-in-out;
 }
 
