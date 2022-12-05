@@ -115,3 +115,15 @@ a:hover {
 a {
   color: #fff !important;
 }
+
+.search input {
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+input::placeholder {
+  color: rgb(189, 189, 189) !important;
+}
+.search ion-icon {
+  color: #fff;
+}
