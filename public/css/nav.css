@@ -172,10 +172,40 @@ li a {
   transition: 0.5s ease-in-out;
 }
 .navbar {
-  padding: 1vw 5vw;
+  background-color: rgba(255, 255, 255, 0.282) !important;
+  padding: 0 5vw;
+  backdrop-filter: blur(10px);
+  /* padding: 1vw 5vw; */
   transition: 0.4s ease-in-out;
 }
 
 .space {
   height: 100vh;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #333;
+  color: #888;
+  padding-left: 3rem;
+  font-weight: 800;
+  width: 10rem;
+  margin-left: -2rem;
+}
+.search ion-icon {
+  font-size: 2.5rem;
+}
+
+.search {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  /* gap: -5rem; */
+}
+
+.search input:focus {
+  width: 20rem;
+  transition: 0.4s all;
+  /* background-color: #000; */
 }
