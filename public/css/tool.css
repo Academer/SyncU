@@ -127,3 +127,7 @@ input::placeholder {
 .search ion-icon {
   color: #fff;
 }
+
+.drop {
+  color: #2f2f2f;
+}
