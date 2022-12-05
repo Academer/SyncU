@@ -118,7 +118,7 @@ a {
 
 .search input {
   border: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 0.3rem solid #fff;
 }
 
 input::placeholder {
