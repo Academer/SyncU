@@ -24,11 +24,10 @@ nav {
   position: fixed;
   /* top: 0; */
   display: flex;
-  height: 8vh;
+  /* height: 8vh; */
   align-items: center;
   background-color: transparent;
   width: 100%;
-  padding: 3vw 5vw;
   justify-content: space-between;
   z-index: 9;
 }
@@ -173,7 +172,8 @@ li a {
   transition: 0.5s ease-in-out;
 }
 .navbar {
-  transition: 0.6s ease-in-out;
+  padding: 1vw 5vw;
+  transition: 0.4s ease-in-out;
 }
 
 .space {
