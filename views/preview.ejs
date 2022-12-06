@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <!-- <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <title>Home Page</title>
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
     <link rel="stylesheet" href="/css/style.css" />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </head>
-  <body>
-    <h1 class="head">SyncU</h1>
-    <div class="container">
-      <img src="<%=img%>" class="img" alt="" />
-      <div class="content">
-        <p class="title"><%=title%></p>
-        <p class="description"><%=description%></p>
-        <a target="_blank" href="<%=url%>" class="link"
-          ><ion-icon name="link-outline"></ion-icon>Go to the Orignal
-          Link<ion-icon name="open-outline"></ion-icon
-        ></a>
-      </div>
-    </div>
-    <footer>Made By: <a href="https://SyncU.me">SyncU</a></footer>
+  </head> -->
 
+  <%- include('./partials/head.ejs',{css:'style'}) %>
+  <body>
+    <!-- <img src="blurry.svg" alt="" /> -->
+    <%- include('./partials/nav.ejs') %>
+    <!-- <h1 class="head">SyncU</h1> -->
+    <div class="body">
+      <div class="container">
+        <img src="<%=img%>" class="img" alt="" />
+        <div class="content">
+          <p class="title"><%=title%></p>
+          <p class="description"><%=description%></p>
+          <a target="_blank" href="<%=url%>" class="link"
+            ><ion-icon name="link-outline"></ion-icon>Go to the Orignal
+            Link<ion-icon name="open-outline"></ion-icon
+          ></a>
+        </div>
+      </div>
+      <footer>Made By: <a href="https://SyncU.me">SyncU</a></footer>
+    </div>
     <script src="/js/nav.js"></script>
   </body>
 </html>

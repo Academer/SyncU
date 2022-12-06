@@ -19,6 +19,7 @@
 a:hover {
   color: #e67e22;
 }
+
 .nav-el a::after {
   background: #fff;
 }
