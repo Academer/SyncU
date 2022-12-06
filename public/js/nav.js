@@ -14,3 +14,17 @@ logo.forEach((i) => {
     window.location.href = "/";
   });
 });
+
+console.log("On Load");
+const loader = () => {
+  $(window).on("load", function () {
+    setTimeout(() => {
+      $(".loading").fadeIn(500, () => {
+        setTimeout(() => {
+          $(".loading").fadeOut(500);
+        }, 300);
+      });
+    }, 300);
+  });
+};
+loader();

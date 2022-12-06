@@ -20,7 +20,7 @@ a:hover {
   color: #e67e22;
 }
 .nav-el a::after {
-  background: #e67e22;
+  background: #fff;
 }
 /* .logo {
   color: #333 !important;
