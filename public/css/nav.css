@@ -212,3 +212,46 @@ li a {
   transition: 0.4s all;
   /* background-color: #000; */
 }
+
+.loading {
+  position: absolute;
+  /* z-index: -99; */
+  /* left: 47.5vw; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.325);
+  backdrop-filter: blur(5px);
+  /* border-radius: 50%; */
+  z-index: 999999999999999999999999999999999999999999999999999999999999999;
+  /* top: 47.5vh; */
+}
+
+.circle {
+  z-index: 9999999999999999999999999999999999999999999999999999999999999999;
+  width: 5vw;
+  height: 5vw;
+  /* width: 100%; */
+  /* background-color: #000; */
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid orange; /* Blue */
+  border-radius: 50%;
+  width: 5vw;
+  height: 5vw;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
