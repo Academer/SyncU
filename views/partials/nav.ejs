@@ -45,3 +45,14 @@
 <div class="loading">
   <div class="loader"></div>
 </div>
+<script>
+  console.log("On Load");
+  const loader = () => {
+    $(window).on("load", function () {
+      setTimeout(() => {
+        $(".loading").fadeOut(500);
+      }, 1000);
+    });
+  };
+  loader();
+</script>
