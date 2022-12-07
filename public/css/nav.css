@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Helvetica;
+  font-family: "Rubik";
   box-sizing: border-box;
   font-size: 62.5%;
   /* font-size: 1.2vh; */
@@ -36,13 +36,13 @@ nav {
   display: flex;
   align-items: center;
   /* font-size: 1rem; */
-  gap: 2.5rem;
+  gap: 2.7rem;
 }
 
 .nav-el a {
   color: #454545 !important;
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 p {
@@ -158,10 +158,10 @@ li a {
 }
 
 .prod span {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .prod ion-icon {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .drop-el {
@@ -199,12 +199,12 @@ li a {
   border-bottom: 0.15rem solid #333;
   color: #888;
   padding-left: 2rem;
-  font-weight: 800;
+  font-weight: 600;
   width: 10rem;
-  margin-left: -1.4rem;
+  margin-left: -1.6rem;
 }
 .search ion-icon {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .search {
