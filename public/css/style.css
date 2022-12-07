@@ -186,25 +186,25 @@ flex-basis: 100%; */
   color: #f1f1f1;
   font-weight: 200;
 }
-a {
+.nav-el a {
   color: #fff !important;
 }
 
 .search input {
   border: none;
   background-color: transparent;
-  padding: 1vh;
-  font-size: 2vh;
+  padding: 1rem !important;
+  font-size: 1.2rem;
   border: none;
-  border-bottom: 0.3rem solid #fff;
+  border-bottom: 0.15rem solid #fff;
   outline: none;
   /* border-bottom: 0.3rem solid #333; */
   color: #888;
   padding: 1.5rem;
-  padding-left: 3rem;
+  padding-left: 2.5rem !important;
   font-weight: 800;
-  width: 12rem;
-  margin-left: -2rem;
+  width: 10rem;
+  margin-left: -1.5rem;
 }
 
 input::placeholder {

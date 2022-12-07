@@ -113,13 +113,13 @@ a:hover {
   color: #333;
 }
 
-a {
+.nav-el a {
   color: #fff !important;
 }
 
 .search input {
   border: none;
-  border-bottom: 0.3rem solid #fff;
+  border-bottom: 0.15rem solid #fff;
 }
 
 input::placeholder {

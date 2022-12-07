@@ -174,7 +174,7 @@ li a {
 }
 .navbar.scrolled {
   background-color: rgba(255, 255, 255, 0.282) !important;
-  padding: 0 5vw;
+  padding: 1.5rem 6rem;
   backdrop-filter: blur(10px);
   transition: 0.5s ease-in-out;
 }
@@ -182,7 +182,7 @@ li a {
   /* background-color: rgba(255, 255, 255, 0.282) !important; */
   /* padding: 0 5vw; */
   /* backdrop-filter: blur(10px); */
-  padding: 2rem 6rem;
+  padding: 3rem 6rem;
   transition: 0.4s ease-in-out;
 }
 
@@ -196,7 +196,7 @@ li a {
   font-size: 1.2rem;
   border: none;
   outline: none;
-  border-bottom: 0.2rem solid #333;
+  border-bottom: 0.15rem solid #333;
   color: #888;
   padding-left: 2rem;
   font-weight: 800;
